@@ -1,13 +1,13 @@
 import React from 'react'
-
+import logo from './Guvi-blog-logo.webp'
 const Top = () => {
   return (
-    <div className='container'>
+    <div className='container'> 
 
     <nav className="navbar navbar-expand-lg mx-5">
       <div className="container">
         <a className="navbar-brand" href="https://www.guvi.in/blog/">
-          <img  src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="Guvi-blog-logo" />
+          <img  src={logo} alt="Guvi-blog-logo" />
         </a>
         <button className="navbar-toggler text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
