@@ -19,7 +19,7 @@ const Card = ({data}) => {
                     }
 
                 </p>
-            <a href="" className='nav-link'>READ MORE</a>
+            <a href="..." className='nav-link'>READ MORE</a>
             </div>
             <div className='card-footer py-3 px-4'>
                 {
