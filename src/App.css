@@ -54,10 +54,12 @@
   font-weight: 700;
 }
 .card-body a:hover {
-
   color: green;
-
 }
+.navbar-toggler{
+  background-color: green !important;
+}
+
 .card-body a::after {
   content: "»";
   font-size: 10px;
@@ -73,8 +75,17 @@
   bottom: 3px;
   margin: 0 7px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .heading p {
     width: 100%;
+  }
+  .active {
+   
+    border-bottom: none !important;
+  }
+
+  .nav-colour-content:hover {
+   
+    border-bottom: none !important;
   }
 }
